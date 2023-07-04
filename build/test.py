@@ -34,5 +34,9 @@ class AlebraTest(unittest.TestCase):
             if soln[0]:
                 self.assertEqual(soln[1]*a + soln[2]*b, c)
 
+class PrimeTest(unittest.TestCase):
+    def test_sieve_of_eratosthenes(self):
+        self.assertEqual(cc.sieve_of_eratosthenes(50), [True, True, True, False, True, True, False, True, True, False, True, False, False, True, True, False, False, True, False, True, True, False, True, False])
+
 if __name__ == '__main__':
     unittest.main()

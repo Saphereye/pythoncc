@@ -15,7 +15,7 @@ unsigned long long binary_exponentiation(unsigned long long x, unsigned long lon
     return res;
 };
 
-long long gcd(long long x, long long y) {
+uint gcd(uint x, uint y) {
     while (y) {
         x %= y;
         std::swap(x, y);
@@ -24,7 +24,7 @@ long long gcd(long long x, long long y) {
     return x;
 }
 
-long long binary_gcd(long long x, long long y) {
+uint binary_gcd(uint x, uint y) {
     if (!x || !y)
         return x | y;
     unsigned shift = __builtin_ctz(x | y);

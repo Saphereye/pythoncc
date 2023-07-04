@@ -407,7 +407,21 @@ CMakeFiles/pythoncc.dir/src/main.cpp.o: ../src/main.cpp \
   ../pybind11/include/pybind11/detail/init.h \
   ../pybind11/include/pybind11/gil.h \
   ../src/algebra.hh \
-  /usr/include/c++/11/iostream \
+  /usr/include/c++/11/numeric \
+  /usr/include/c++/11/bits/stl_numeric.h \
+  /usr/include/c++/11/pstl/glue_numeric_defs.h \
+  ../src/prime.hh \
+  ../pybind11/include/pybind11/stl.h \
+  /usr/include/c++/11/deque \
+  /usr/include/c++/11/bits/stl_deque.h \
+  /usr/include/c++/11/bits/deque.tcc \
+  /usr/include/c++/11/list \
+  /usr/include/c++/11/bits/stl_list.h \
+  /usr/include/c++/11/bits/list.tcc \
+  /usr/include/c++/11/map \
+  /usr/include/c++/11/bits/stl_tree.h \
+  /usr/include/c++/11/bits/stl_map.h \
+  /usr/include/c++/11/bits/stl_multimap.h \
   /usr/include/c++/11/ostream \
   /usr/include/c++/11/ios \
   /usr/include/c++/11/bits/basic_ios.h \
@@ -420,18 +434,44 @@ CMakeFiles/pythoncc.dir/src/main.cpp.o: ../src/main.cpp \
   /usr/include/c++/11/bits/locale_facets.tcc \
   /usr/include/c++/11/bits/basic_ios.tcc \
   /usr/include/c++/11/bits/ostream.tcc \
-  /usr/include/c++/11/istream \
-  /usr/include/c++/11/bits/istream.tcc \
-  /usr/include/c++/11/numeric \
-  /usr/include/c++/11/bits/stl_numeric.h \
-  /usr/include/c++/11/pstl/glue_numeric_defs.h
+  /usr/include/c++/11/set \
+  /usr/include/c++/11/bits/stl_set.h \
+  /usr/include/c++/11/bits/stl_multiset.h \
+  /usr/include/c++/11/valarray \
+  /usr/include/c++/11/algorithm \
+  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/11/bits/valarray_array.h \
+  /usr/include/c++/11/bits/valarray_array.tcc \
+  /usr/include/c++/11/bits/valarray_before.h \
+  /usr/include/c++/11/bits/slice_array.h \
+  /usr/include/c++/11/bits/valarray_after.h \
+  /usr/include/c++/11/bits/gslice.h \
+  /usr/include/c++/11/bits/gslice_array.h \
+  /usr/include/c++/11/bits/mask_array.h \
+  /usr/include/c++/11/bits/indirect_array.h \
+  /usr/include/c++/11/variant \
+  /usr/include/c++/11/bits/parse_numbers.h
 
 
-/usr/include/c++/11/bits/stl_numeric.h:
+/usr/include/c++/11/variant:
 
-/usr/include/c++/11/numeric:
+/usr/include/c++/11/bits/indirect_array.h:
 
-/usr/include/c++/11/istream:
+/usr/include/c++/11/bits/mask_array.h:
+
+/usr/include/c++/11/bits/gslice.h:
+
+/usr/include/c++/11/bits/valarray_after.h:
+
+/usr/include/c++/11/bits/slice_array.h:
+
+/usr/include/c++/11/bits/valarray_array.h:
+
+/usr/include/c++/11/algorithm:
+
+/usr/include/c++/11/valarray:
+
+/usr/include/c++/11/set:
 
 /usr/include/c++/11/bits/ostream.tcc:
 
@@ -440,6 +480,22 @@ CMakeFiles/pythoncc.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
 
 /usr/include/c++/11/ostream:
+
+/usr/include/c++/11/bits/stl_multimap.h:
+
+/usr/include/c++/11/bits/stl_map.h:
+
+/usr/include/c++/11/map:
+
+/usr/include/c++/11/bits/list.tcc:
+
+/usr/include/c++/11/bits/deque.tcc:
+
+../src/prime.hh:
+
+/usr/include/c++/11/bits/stl_numeric.h:
+
+/usr/include/c++/11/numeric:
 
 ../src/algebra.hh:
 
@@ -504,6 +560,8 @@ CMakeFiles/pythoncc.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/include/c++/11/clocale:
 
 /usr/include/c++/11/bits/localefwd.h:
+
+/usr/include/c++/11/pstl/glue_algorithm_defs.h:
 
 /usr/include/c++/11/stdexcept:
 
@@ -591,6 +649,8 @@ CMakeFiles/pythoncc.dir/src/main.cpp.o: ../src/main.cpp \
 
 /usr/include/python3.10/cpython/pyctype.h:
 
+/usr/include/c++/11/bits/valarray_array.tcc:
+
 /usr/include/c++/11/bits/atomic_lockfree_defines.h:
 
 /usr/include/python3.10/bltinmodule.h:
@@ -602,6 +662,8 @@ CMakeFiles/pythoncc.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/include/python3.10/import.h:
 
 /usr/include/python3.10/intrcheck.h:
+
+/usr/include/c++/11/bits/stl_multiset.h:
 
 /usr/include/python3.10/osmodule.h:
 
@@ -624,6 +686,8 @@ CMakeFiles/pythoncc.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/include/python3.10/cpython/compile.h:
 
 /usr/include/c++/11/bits/stl_pair.h:
+
+/usr/include/c++/11/bits/stl_list.h:
 
 /usr/include/x86_64-linux-gnu/bits/iscanonical.h:
 
@@ -714,6 +778,10 @@ CMakeFiles/pythoncc.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/include/x86_64-linux-gnu/bits/time.h:
 
 /usr/include/x86_64-linux-gnu/bits/select.h:
+
+/usr/include/c++/11/bits/gslice_array.h:
+
+/usr/include/c++/11/bits/stl_set.h:
 
 /usr/include/x86_64-linux-gnu/bits/struct_stat.h:
 
@@ -807,6 +875,8 @@ CMakeFiles/pythoncc.dir/src/main.cpp.o: ../src/main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
 
+../pybind11/include/pybind11/stl.h:
+
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
 ../pybind11/include/pybind11/options.h:
@@ -818,6 +888,8 @@ CMakeFiles/pythoncc.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/endian.h:
+
+/usr/include/c++/11/bits/stl_deque.h:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs.h:
 
@@ -853,8 +925,6 @@ CMakeFiles/pythoncc.dir/src/main.cpp.o: ../src/main.cpp \
 
 /usr/include/c++/11/bits/move.h:
 
-/usr/include/c++/11/iostream:
-
 /usr/include/c++/11/bits/node_handle.h:
 
 /usr/include/x86_64-linux-gnu/bits/fp-fast.h:
@@ -880,6 +950,8 @@ CMakeFiles/pythoncc.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/include/x86_64-linux-gnu/bits/confname.h:
 
 /usr/include/python3.10/pyconfig.h:
+
+/usr/include/c++/11/bits/parse_numbers.h:
 
 /usr/include/python3.10/cpython/pytime.h:
 
@@ -1015,6 +1087,8 @@ CMakeFiles/pythoncc.dir/src/main.cpp.o: ../src/main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls.h:
 
+/usr/include/c++/11/list:
+
 /usr/include/python3.10/pylifecycle.h:
 
 /usr/include/python3.10/cpython/methodobject.h:
@@ -1061,6 +1135,8 @@ CMakeFiles/pythoncc.dir/src/main.cpp.o: ../src/main.cpp \
 
 /usr/include/c++/11/tr1/gamma.tcc:
 
+/usr/include/c++/11/deque:
+
 /usr/include/linux/stat.h:
 
 /usr/include/c++/11/tr1/bessel_function.tcc:
@@ -1082,8 +1158,6 @@ CMakeFiles/pythoncc.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/include/c++/11/tr1/exp_integral.tcc:
 
 /usr/include/c++/11/tr1/hypergeometric.tcc:
-
-/usr/include/c++/11/bits/istream.tcc:
 
 /usr/include/python3.10/cpython/object.h:
 
@@ -1231,6 +1305,8 @@ CMakeFiles/pythoncc.dir/src/main.cpp.o: ../src/main.cpp \
 
 /usr/include/python3.10/cpython/initconfig.h:
 
+/usr/include/c++/11/bits/valarray_before.h:
+
 /usr/include/python3.10/fileutils.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h:
@@ -1238,6 +1314,8 @@ CMakeFiles/pythoncc.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/include/python3.10/abstract.h:
 
 /usr/include/python3.10/descrobject.h:
+
+/usr/include/c++/11/bits/stl_tree.h:
 
 /usr/include/python3.10/genericaliasobject.h:
 
