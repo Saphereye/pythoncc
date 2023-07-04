@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -flto -shared  -o pythoncc.cpython-310-x86_64-linux-gnu.so CMakeFiles/pythoncc.dir/src/main.cpp.o 

@@ -1,0 +1,5 @@
+/home/adarsh/Adarsh Data/Adarsh_Coding/pythoncc/build/CMakeFiles/pythoncc.dir
+/home/adarsh/Adarsh Data/Adarsh_Coding/pythoncc/build/CMakeFiles/edit_cache.dir
+/home/adarsh/Adarsh Data/Adarsh_Coding/pythoncc/build/CMakeFiles/rebuild_cache.dir
+/home/adarsh/Adarsh Data/Adarsh_Coding/pythoncc/build/pybind11/CMakeFiles/edit_cache.dir
+/home/adarsh/Adarsh Data/Adarsh_Coding/pythoncc/build/pybind11/CMakeFiles/rebuild_cache.dir
